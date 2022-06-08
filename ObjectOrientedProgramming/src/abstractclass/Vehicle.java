@@ -20,5 +20,8 @@ public abstract class Vehicle {
 	public void stop() {
 		System.out.println("Vehicle has stopped.");
 	}
+	
+	// abstract method
+	public abstract int getMaxSpeed();
 
 }
